@@ -25,34 +25,34 @@ img {
 
 .features {
   margin: 100px;
-}
 
-.features h2 {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-}
+  h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
 
-.features p {
-  font-size: 15px;
-  font-weight: lighter;
+  p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
 }
 
 .newsletter {
   margin: 100px 0;
-}
 
-.newsletter h2 {
-  font-size: 28px;
-  font-weight: bold;
-  color: black;
-}
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+  }
 
-.newsletter p {
-  font-weight: lighter;
-  font-size: 14px;
-  margin-bottom: 10px;
+  p {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
 
 #map {
