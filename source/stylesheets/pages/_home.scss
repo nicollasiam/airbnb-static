@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  opacity: 0.8;
+}
+.padded {
+  padding: 100px 0;
+}
+
+img {
+  width: 100px;
+}
+
+.features {
+  margin: 100px;
+}
+
+.features h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.features p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.newsletter {
+  margin: 100px 0;
+}
+
+.newsletter h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.newsletter p {
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 500px;
+}

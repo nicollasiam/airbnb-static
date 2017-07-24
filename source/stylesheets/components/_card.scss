@@ -1,0 +1,89 @@
+/* Your card CSS code here */
+.card-icons-flexbox {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+}
+
+.card {
+  height: 250px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.card-flexitem {
+  flex: 1 1 auto;
+}
+
+.card-content:hover {
+  opacity: 0.9;
+}
+
+.card-content .city {
+  position: absolute;
+  letter-spacing: 1px;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+}
+
+.card-content .main-content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-content .main-content h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card-content .main-content p {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.card-content .avatar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  background: black;
+}
+
+.link:hover {
+  opacity: 0.1;
+}
+
+.cards-text {
+  font-weight: bold;
+  color: black;
+  font-size: 26px;
+}
+
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
